@@ -3,10 +3,10 @@ kind: Service
 metadata:
   name: {{ .Release.Name }}-service
 spec:
-  type: {{ .Values.calculatorService.type }}
+  type: {{ .Values.Service.type }}
   selector:
     app: {{ .Release.Name }}
   ports:
-    - port: {{ .Values.calculatorService.port }}
-      targetPort: {{ .Values.calculatorService.targetPort }}
-      nodePort: {{ .Values.calculatorService.nodePort }}
+    - port: {{ .Values.Service.port }}
+      targetPort: {{ .Values.Service.targetPort }}
+      nodePort: {{ .Values.Service.nodePort }}
