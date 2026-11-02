@@ -2,7 +2,7 @@ replicas: 2
 image: shankarmurugaiyan/calculator-frontend:v2-dynamic
 port: 80
 
-calculatorService:
+Service:
   type: NodePort
   port: 80
   targetPort: 80
