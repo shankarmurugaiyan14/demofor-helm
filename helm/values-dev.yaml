@@ -7,4 +7,4 @@ calculatorService:
    type: NodePort
    port: 80
    targetPort: 80
-   nodePort: 
+   nodePort: 30007
