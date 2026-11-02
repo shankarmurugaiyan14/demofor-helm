@@ -1,4 +1,4 @@
-replicas: 2
+replicas: 3
 image: shankarmurugaiyan/calculator-frontend:v2-dynamic
 port: 80
 
